@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="contactModal/modal.js" defer></script>
+    <link rel="stylesheet" href="contactModal/modal.css">
+
+    <title>Agenda de Contatos</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Agenda de Contatos</h1>
+        <div class="newContact">
+            <input type="button" value="Novo Contato" class="newContactButton">
+        </div>
+
+        <div class="actualContacts">
+            <table border="3" class="contacts">
+                <thead class="contactsThead">
+                    <tr>
+                        <th>Foto</th>
+                        <th>Nome</th>
+                        <th>Email</th>
+                        <th>Telefone</th>
+                        <th id="buttonHead"></th>
+                    </tr>
+                </thead>
+                <tbody class="contactsTbody">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!--Iframe Space-->
+    <div class="modal">
+        <div class="modalContent">
+            <span id="close">&times;</span>
+            <iframe src="newContactFiles/newcontact.html" class="newContactFrame"></iframe>
+        </div>
+    </div>
+</body>
+</html>

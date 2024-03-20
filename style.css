@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    border: 3px solid black;
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.newContact{
+    border: 3px solid black;
+    width: 800px;
+    height: 150px;
+}
+
+.actualContacts{
+    border: 3px solid black;
+    width: 800px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*---------------------------------------------------------------------*/
+
+.newContactButton{
+    margin-top: 65px;
+    margin-left: 70px;
+}
+
+/*---------------------------------------------------------------------*/
+
+tr{
+    border: 3px solid black;
+}
+
+#buttonsSpace{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    gap: 10px;
+}
+
+img{
+    width: 4.5cqb;
+    height: 4.5cqb;
+}
+
+#pictureSpace{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}

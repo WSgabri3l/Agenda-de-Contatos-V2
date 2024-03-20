@@ -1,0 +1,39 @@
+/* New Contact Form */
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    border: 3px solid black;
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dataFields{
+    border: 3px solid black;
+    width: 800px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/*---------------------------------------------------------------------*/
+
+.saveButton{
+    width: 80px;
+    height: 35px;
+    margin-top: 30px;
+    margin-left: 690px;
+}
+
+/*---------------------------------------------------------------------*/
